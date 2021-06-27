@@ -1,0 +1,765 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:"Verdana", "Arial";
+}
+
+
+/* header */ 
+
+#encabezado {
+    position: sticky;
+    top: 0px;
+	height: 60x;
+	width: 100%;
+	background-color: white;
+    border-bottom: solid 1px #f6f6f6;
+}
+
+#contenedor {
+    padding-top: 25px;
+
+
+}
+#contenedor .logo {
+	display: inline-block;
+	background-image: url(../imagenes/logo_beauty.jpg);
+	background-repeat: no-repeat;
+	height:60px;
+	width: 206px;
+    margin-left: 150px;
+    margin-right: 110px;
+   
+}
+
+h1 {
+    font-size:0;
+}
+
+nav {
+	display: inline-block;
+	font-family: "sans-serif", "Verdana", "Arial";
+	vertical-align: bottom;
+	position: relative;
+    left: 30px;
+    
+}
+
+nav .navegacion {
+	list-style-type: none;
+	padding: 0px;
+   
+    
+}
+
+nav .navegacion li {
+	display: inline;
+    padding: 5px 5px;
+	color: #A2DCC2;
+    margin-right: 10px;
+    text-transform: uppercase; 
+    
+}
+nav .navegacion li a {
+	text-decoration: none;
+    color: darkslateblue;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+nav .navegacion li a:hover {
+	color: #35B381;
+}
+
+
+.submenu {
+	position: relative;
+	display: inline-block;
+}	
+
+.absoluta {
+	position: absolute;
+	display: none;
+	width: 160px;
+	font-size: 18px;
+	margin-bottom: 8px;
+	padding: 0;
+	left: 0;
+}
+
+.absoluta li a {
+	position: relative;
+	display: inline-block;
+	background:#f6f6f6;
+	width: 98%;
+    height: 60px;
+	border: none;
+	border-top: solid 1px white;
+	border-left: solid 1px white;
+	border-right: solid 1px white;
+    text-align: center;
+}
+
+.absoluta li a:last-child {
+    border-bottom: solid 1px white;
+}
+
+.absoluta li a {
+	color: black;
+}
+
+.absoluta li a:hover {
+	color: #bb3f45;
+}
+
+
+
+.submenu:hover .absoluta {
+	display: block;
+	margin-top: 6px;
+}
+
+/* Banner */
+
+.banner {
+    background-image: url(../imagenes/banner_home1280x350.jpg);
+    background-repeat: no-repeat;
+    width: 85%;
+	height: 350px;
+    color: white;
+    padding-top: 3rem;
+    margin: auto;
+}
+
+.banner p {
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3.5em;
+    background-color: #fbf2e1;
+    opacity: 1;
+    color: purple;
+    width: 80%;
+    border-radius: 6px;
+    margin-bottom:  3em;
+}
+
+
+
+/* Body */ 
+
+main {
+    display: block;
+	max-width: 960px;
+    margin:auto;
+}
+
+main div{
+    display: inline-block;
+}
+
+article h2 {
+    color: darkslateblue;
+    text-align: center;
+    text-align: center;
+    margin-bottom: 1.5em;
+    margin-top: 3em;
+  
+}
+
+
+article p {
+    margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+figure {
+    display: inline-block;
+}
+
+#video h2 {
+    color: darkslateblue;
+    text-align: center;
+    margin-top: 5em;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: darkslateblue;
+    margin-top: 1em;
+}
+
+article div .beneficio figure {
+    display: inline-block;
+   
+}
+
+
+#servicios {
+    text-align: center;
+    margin-bottom: 1em;
+    max-width: 960px;
+}
+
+#servicios h2 {
+    color: darkslateblue;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+
+#servicios p {
+    margin-bottom: 1em;
+}
+
+
+#servicios figure picture img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+
+#turnos {
+   
+    width: 50%;
+    margin: auto;
+}
+
+#turnos {
+    background-color:  #fbfafa;
+    margin-top: 4em;
+    padding-bottom: 2em;
+    padding-top: 1.5em;
+    margin-bottom: 4em;
+        
+}
+
+#turnos p:first-child{
+    color: hotpink;
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+   
+}
+
+#turnos p:nth-child(2) {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0.2em;
+    margin-bottom: 2em;
+    
+}
+
+#turnos p span {
+    color: red;
+    font-size: 30px;
+    margin-left: 3.5em;
+ 
+    
+}
+
+#turnos p:last-child{
+    color: hotpink;
+    font-size: 24px;
+    font-style: bold;
+    margin-left: 2em;
+   
+}
+
+#fb {
+    display: inline-block;
+    width: 40%;
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-bottom: 8em;
+    
+}
+
+#fb h2 {
+    text-align: left;
+    margin-bottom: 0.7em;
+}
+
+#fb div {
+    background-image: url(../imagenes/fb300x200.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    
+}
+
+#fb div a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-style: bold;
+    margin-left: 3.5em;
+}
+
+
+#fb div p {
+    color:white;
+    font-size: 14px;
+    margin-left: 6em;
+}
+
+#fb p {
+    color: hotpink;
+    font-size: 20px;
+    font-style: bold;
+    text-transform: uppercase; 
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+    
+    
+}
+
+#fb p a {
+   color: purple;
+    text-decoration: none;
+    margin-left: 2em;
+
+}
+
+
+#novedades {
+    display: inline-block;
+    vertical-align: middle;
+    border-left: solid 3px  #f6f6f6 ;
+    border-right: solid 3px lightgrey;
+    border-radius: 8px;
+    margin-left: 3em;
+   
+}
+
+
+.novedades{
+    background-color: white;
+    margin-top: 1.5em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+
+.novedades figure {
+    margin-top: 1em;
+}
+
+.novedades figure img { 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#novedades p {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+.novedades figure figcaption { 
+    display: inline-block;
+    color: hotpink;
+    font-style: bold;
+    vertical-align: middle;
+    font-size: 24px;
+    
+}
+
+.novedades h2 {
+    font-size: 0;
+}
+
+/* Tratamientos Faciales */
+main div div {
+    color: black;
+    width: 70%;
+    margin-left: 1em;
+  
+}
+
+main div {
+    background-color: #fbfafa;
+    margin-bottom: 1rem;
+}
+
+figure {
+    display: inline-block; 
+
+   
+}
+
+
+
+main div div h3 {
+    color: purple;
+    margin-bottom: 1rem;
+}
+
+
+#video {
+	max-width: 960px;
+	margin: auto;
+   
+}
+
+
+#video h3 {
+    color: rebeccapurple;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#video figure  {
+	padding: 3rem;
+
+}
+#video figure div {
+	width: 80vw;
+	height: calc(80vw * 480 / 853);
+	max-width: 853px;
+	max-height: 480px;
+	background-color: beige;
+	margin: auto;
+     
+} 
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+    border-radius: 8px;
+    
+}
+
+
+/* footer */ 
+
+footer {
+	border-top: solid 2.5px #e8d2d4;
+    width: 100%;
+}
+
+footer > div {
+    width: 100%;
+	margin: auto;
+	padding-top: 1.5em;
+    display: block;
+    padding-left: 7em;
+    background-image: url(../imagenes/fondo_footer1280x350.jpg);
+    height: 350px;
+
+}
+
+#logo {
+    background-image: url(../imagenes/logo_beauty.jpg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 60px;
+    font-size: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#menu {
+    list-style-type: none;
+}
+#menu li {
+    margin-bottom: 0.3em;
+}
+#menu a {
+    text-decoration: none;
+    color: darkslateblue;
+    text-transform: uppercase;
+}
+#menu a:hover {
+    color:#35B381 ;
+}
+
+
+footer div div:nth-child(2){
+    margin-left: 8em;
+    padding-left: 1.5em;
+    width: 15%;
+    display: inline-block;
+    
+   
+}
+
+footer div div:last-child {
+    margin-top: 4.5em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    justify-content: center;
+    padding: 1em;
+    width: 80%;
+    text-align: center;
+    
+}
+
+details {
+    display: inline-block;
+    float: right;
+    margin-right: 8em;
+   
+ 
+}
+
+details summary {
+    color: rebeccapurple;
+     font-size: 1em;
+    text-transform: uppercase;
+    
+   
+}
+
+div span {
+    justify-content: center;
+    color: hotpink; 
+    padding: 0.5rem;
+}
+
+
+/* tratamientos */
+
+.beneficios {
+    background-color: #fbfafa;
+    margin-top: 3em;
+}
+
+.beneficios p {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.beneficios div {
+    margin-left: 5rem;
+    padding: 1.5rem;
+    
+}
+
+.beneficios div figure img {
+    margin-left: 95px;
+}
+
+.beneficios div figure figcaption {
+    color: purple;
+     display: inline-block;
+}
+
+
+
+/* tratamientos faciales */
+
+.bannerFacial {
+    background-image: url(../imagenes/faciales/banner_fa.png);
+    background-repeat: no-repeat;
+    background-color: #fbf2e1;
+    width: 85%;
+	height:350px;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 2em;
+
+   
+}
+
+div .titulo { 
+    color: purple;
+    text-align: center;
+    padding-top: 5em;
+    margin: auto;
+}
+
+/* tratamientos corporales */
+
+.bannerCorporal {
+    background-image: url(../imagenes/banner_corporal.png);
+    background-repeat: no-repeat;
+    background-color: #fbf2e1;
+    width: 85%;
+	height:350px;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 2em;
+}
+
+.bannerCorporal .tituloCorp {
+    color: purple;
+    text-align: center;
+    padding-top: 5em;
+    margin: auto;
+    margin-left: 2em;
+   
+}
+
+/* depilacion */
+
+.laser {
+    margin-left: 6.5rem;
+    margin-right: 4rem;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+  
+}
+
+.cera {
+    padding-bottom: 1em;
+}
+
+.laser a {
+    text-decoration: none;
+    margin-left: 3.5em;
+    background-color: purple;
+    color:white;
+	border-radius: 4px;
+	padding: 0.3em;
+	margin-bottom: 1em;
+}
+
+.cera a {
+     text-decoration: none;
+    margin-left: 3.5em;
+    background-color: purple;
+    color:white;
+	border-radius: 4px;
+	padding: 0.3em;
+	margin-bottom: 1em;
+}
+
+#depi {
+    text-align: center;
+    margin-bottom: 1.5em;
+    
+}
+
+.laser figure picture img {
+    border-bottom: solid 8px #e8d2d4;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-bottom: 0.7em;
+   
+    
+}
+
+.cera figure picture img {
+    border-bottom: solid 8px #e8d2d4;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+     margin-bottom: 0.7em;
+}
+
+/* Formulario */
+
+main h2 {
+    color: darkslateblue;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+main p {
+    margin-bottom: 2em;
+   
+}
+
+#consulta {
+    text-align: center;
+   
+}
+
+#formulario {
+    margin: auto;
+    width: 600px;
+    margin-bottom: 5em;
+    margin-top: 3em;
+}
+#formulario div {
+    background-color: white;
+    display: block;
+}
+
+label {
+	display: inline-block;
+	font-weight: bold;
+	margin-bottom: 10px;
+    color: purple;
+}
+
+.texto {
+    border-radius: 3px;
+    padding: 0.2rem;
+    height: 1.8rem;
+    width: 80%;
+    font-size: 1rem;
+    border-color: pink;
+    margin-bottom: 3px;
+} 
+
+#email {
+    margin-left: 1.5em;
+}
+
+.producto .radio {
+    margin-left: 4em;
+    color: purple;
+    padding: 0.3em;
+    font-size: 20px;
+}
+
+#adjuntar {
+   margin-left:8em;
+}
+
+#formulario div textarea {
+    resize: none;
+	width: 100%;
+    height: 5em;
+    font-size: 1rem;
+ 
+   
+}
+
+.botones {
+    text-align: right;
+    width: 500px;
+
+}
+#enviar, #cancelar {
+	width: 120px;
+	color: white;
+	padding: 8px;
+    height: 40px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1em;
+    border-radius: 6px;
+	border: 1px solid;
+}
+
+#enviar {
+        background-color: #118611;
+   
+}
+
+#cancelar {
+        background-color: #e51112;
+}
+
+
+@media (min-width: 1100px) and (max-width:1242px) {
+    
+
+   #contenedor .logo {
+    margin-left: 140px;
+    margin-right: 50px;
+   
+}
+    
+}
+
+
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+		<title>Beauty Fly | Contacto</title>
+		<link rel="stylesheet" href="css/estilos.css"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="icon" type="image/png" href="imagenes/logoWeb.png"/>
+
+    </head>
+    <body>
+        <header id="encabezado">
+            <div id="contenedor">
+                <h1>Beauty Fly</h1>
+                <div class="logo"></div>
+                <nav>
+                    <ul class="navegacion">
+                        <li><a href ="index.html" class="activo">inicio</a></li>
+                        <li class="submenu"><a href="tratamientos.html">tratamientos</a>
+                            <ul class="absoluta">
+                                <li><a href="tratamientosFaciales.html">faciales</a></li>
+                                <li><a href="tratamientosCorporales.html">corporales</a></li>
+                            </ul>
+                        </li>	
+                        <li><a href ="depilacion.html">depilacion</a></li>
+                        <li><a href ="manicura.html">manicura</a></li>
+                        <li><a href ="contacto.html">contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h2>Beauty Fly</h2>
+            <p>Nuestro local se encuentra en el corazón del barrio porteño de Palermo. Preferimos no publicar nuestra dirección exacta para poder brindarte una mejor atención mediante turnos previos.</p>
+            <p id="consulta"> Si lo deseas, envíanos tu consulta completando el siguiente formulario:</p>
+            <form id="formulario" action="enviar_formulario.php" method="post" enctype="multipart/form-data"> 
+                <div>
+                    <label>Nombre:</label>
+                    <input class="texto" type="text" name="nombre" placeholder="Ingresa tu nombre" required />
+                </div>
+                <div>
+                    <label>Apellido:</label>
+                    <input class="texto" type="text" name="apellido"  placeholder="Ingresa tu apellido" required />
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input id="email" class="texto" type="email" name="email" placeholder="Ingresa tu email" required />
+                </div>		
+                <div class="grupo">
+                        <label>Elegí un servicio</label>
+                        <div class="producto">
+                            <div class="radio"><input type="radio" name="servicio" value="Depilacion"/>Manicura</div>
+                            <div class="radio"><input type="radio" name="servicio" value="Depilacion"/>Depilación</div>
+                            <div class="radio"><input type="radio" name="servicio" value="Masajes"/>Masajes</div>
+                            <div class="radio"><input type="radio" name="servicio" value="Tratamiento Facial"/>Tratamiento Facial</div>
+                            <div class="radio"><input type="radio" name="servicio" value="Tratamiento Corporal"/>Tratamiento Corporal</div>
+                        </div>
+                </div>
+                <div>
+                    <label>Adjuntá la imagen del servicio que deseas obtener:</label>
+                    <input id="adjuntar" type="file" name="archivo" accept="image/jpg" />
+                </div>
+                <div>
+                    <label>Comentario:</label>
+                    <textarea class="texto" name="consulta" cols="40" rows="6" placeholder="Escribí tu comentario aquí" ></textarea>
+                </div>
+                <div class="botones">
+                    <input type="reset" value="Cancelar" id="cancelar"/>
+                    <input type="submit" value="Enviar" id="enviar" />
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div>
+                <p id="logo">Beauty Fly</p>
+                <div>
+                    <ul id="menu">
+				        <li><a href ="index.html">inicio</a></li>
+                        <li><a href="tratamientos.html">tratamientos</a></li>	
+                        <li><a href ="depilacion.html">depilacion</a></li>
+                        <li><a href ="manicura.html">manicura</a></li>
+                        <li><a href ="contacto.html">contacto</a></li>
+					</ul>
+                </div>
+                 <div>
+                    <details>
+                        <summary>Datos del creador</summary>
+                        <ul id="datos">
+                            <li><span>Alumna:</span> Paniagua Débora Stefanía</li>
+                            <li><span>Materia</span>"Maquetado y Diseño Web" </li>
+                            <li><span>Año: </span> 2021</li>
+                        </ul>
+                    </details>
+                </div>
+                <div>
+                    <span>Copyright &copy; 2021. Todos los derechos reservados.</span>
+                </div>
+            </div>   
+        </footer>
+    </body>
+</html>
